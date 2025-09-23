@@ -1,6 +1,7 @@
 
 body {
     text-align: center;
+    background: linear-gradient(to right, blue, pink);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -11,7 +12,7 @@ body {
     display: flex;
     justify-content: center;   
     align-items: center;
-    margin: 20px auto;
+    margin: 20px auto; /* auto permet de centrer le canvas */
     width: 400px;
     height: 600px;
 }
@@ -37,7 +38,6 @@ body {
 
 
 .commandes button {
-    padding: 10px 20px;
     cursor: pointer;
     border-radius: 25px;
     background-color: rgb(155, 255, 147);
