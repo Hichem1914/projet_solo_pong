@@ -1,0 +1,46 @@
+
+body {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.canvas {
+    border: 2px solid #000;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    margin: 20px auto;
+    width: 400px;
+    height: 600px;
+}
+
+
+.info button{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: rgb(90, 165, 252);
+    color: rgb(25, 7, 112);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.info p {
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.commandes button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: rgb(155, 255, 147);
+    color: rgb(1, 142, 20);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
