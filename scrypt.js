@@ -27,7 +27,8 @@ const HEIGHT = canvas.height;
     radius: 10,
     speedX: 3,
     speedY: 3,
-    color: "rgb(255, 0, 43)"
+    color: "rgb(255, 0, 43)", 
+    enjeu: false // Indique si la balle est en jeu ou non pour le moment au depart
   };
 
   // Fonction pour dessiner la raquette
